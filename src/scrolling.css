@@ -1,0 +1,17 @@
+.scrolling {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  grid-column-gap: 8px;
+  overflow-x: scroll;
+}
+
+.scrolling::-webkit-scrollbar {
+  display: none;
+}
+
+.centering {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./src/assets/house.png" type="image/x-icon">
     <!-- adding styles -->
-    <!-- <link rel="stylesheet" href="src/hero.css" /> -->
+    <link rel="stylesheet" href="src/scrolling.css">
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="stylesheet" href="src/output.css" />
     <!-- google icons -->
@@ -48,9 +50,9 @@
         </div>
       </header>
       <!-- welcome hero -->
-      <div class="bg-slate-700 relative w-full h-custom">
+      <div class="relative w-full h-custom">
         <img src="./src/assets/fatherAndDaughter.jpg" alt="" class="w-full h-full object-cover brightness-50">
-        <div class="space-y-5 font-semibold absolute left-64 top-52">
+        <div class="space-y-5 font-semibold absolute centering">
           <h1 class="text-4xl text-white">Find your place for each other</h1>
           <div class="flex h-16 gap-x-4 rounded-lg bg-white p-2">
             <div
@@ -101,38 +103,70 @@
           <h2 class="text-2xl font-semibold">Suggestions for you</h2>
           <h2 class="text-xl font-semibold">Popular travel destinations</h2>
 
-          <div class="flex gap-x-5">
-            <div class="h-60 w-72 rounded-lg shadow-2xl">
+          <div class="scrolling">
+            <div class="h-60 w-72 rounded-lg">
               <img
                 src="./src/assets/destinations/dubai.jpg"
                 alt=""
                 class="h-3/4 w-full rounded-t-lg"
               />
-              <p class="h-1/4 rounded-b-lg p-3">Dubai</p>
+              <p class="h-1/4 rounded-b-lg p-3 bg-gray-100">Dubai</p>
             </div>
-            <div class="h-60 w-72 rounded-lg shadow-2xl">
+            <div class="h-60 w-72 rounded-lg">
               <img
                 src="./src/assets/destinations/new york.jpg"
                 alt=""
                 class="h-3/4 w-full rounded-t-lg"
               />
-              <p class="h-1/4 rounded-b-lg p-3">New York</p>
+              <p class="h-1/4 rounded-b-lg p-3 bg-gray-100">New York</p>
             </div>
-            <div class="h-60 w-72 rounded-lg shadow-2xl">
+            <div class="h-60 w-72 rounded-lg">
               <img
                 src="./src/assets/destinations/oxon hill.jpg"
                 alt=""
                 class="h-3/4 w-full rounded-t-lg"
               />
-              <p class="h-1/4 rounded-b-lg p-3">Oxon Hill</p>
+              <p class="h-1/4 rounded-b-lg p-3 bg-gray-100">Oxon Hill</p>
             </div>
-            <div class="h-60 w-72 rounded-lg shadow-2xl">
+            <div class="h-60 w-72 rounded-lg">
               <img
                 src="./src/assets/destinations/paris.jpg"
                 alt=""
                 class="h-3/4 w-full rounded-t-lg"
               />
-              <p class="h-1/4 rounded-b-lg p-3">Paris</p>
+              <p class="h-1/4 rounded-b-lg p-3 bg-gray-100">Paris</p>
+            </div>
+            <div class="h-60 w-72 rounded-lg">
+              <img
+                src="./src/assets/destinations/dubai.jpg"
+                alt=""
+                class="h-3/4 w-full rounded-t-lg"
+              />
+              <p class="h-1/4 rounded-b-lg p-3 bg-gray-100">Dubai</p>
+            </div>
+            <div class="h-60 w-72 rounded-lg">
+              <img
+                src="./src/assets/destinations/new york.jpg"
+                alt=""
+                class="h-3/4 w-full rounded-t-lg"
+              />
+              <p class="h-1/4 rounded-b-lg p-3 bg-gray-100">New York</p>
+            </div>
+            <div class="h-60 w-72 rounded-lg">
+              <img
+                src="./src/assets/destinations/oxon hill.jpg"
+                alt=""
+                class="h-3/4 w-full rounded-t-lg"
+              />
+              <p class="h-1/4 rounded-b-lg p-3 bg-gray-100">Oxon Hill</p>
+            </div>
+            <div class="h-60 w-72 rounded-lg">
+              <img
+                src="./src/assets/destinations/paris.jpg"
+                alt=""
+                class="h-3/4 w-full rounded-t-lg"
+              />
+              <p class="h-1/4 rounded-b-lg p-3 bg-gray-100">Paris</p>
             </div>
           </div>
         </div>
@@ -141,7 +175,55 @@
           <h2 class="text-2xl font-semibold">
             Find accomodations that suits your taste
           </h2>
-          <div class="flex gap-x-5">
+          <div class="scrolling">
+            <div class="h-76 relative w-72 rounded-lg shadow-2xl">
+              <img
+                src="./src/assets/accomodations/house1.png"
+                alt=""
+                class="h-full w-full rounded-lg brightness-50"
+              />
+              <p
+                class="absolute bottom-2 left-2 z-10 text-lg font-semibold text-white"
+              >
+                Modern apartement
+              </p>
+            </div>
+            <div class="h-76 relative w-72 rounded-lg shadow-2xl">
+              <img
+                src="./src/assets/accomodations/house2.jpg"
+                alt=""
+                class="h-full w-full rounded-lg brightness-50"
+              />
+              <p
+                class="absolute bottom-2 left-2 z-10 text-lg font-semibold text-white"
+              >
+                Forrest house
+              </p>
+            </div>
+            <div class="h-76 relative w-72 rounded-lg shadow-2xl">
+              <img
+                src="./src/assets/accomodations/house3.jpg"
+                alt=""
+                class="h-full w-full rounded-lg brightness-50"
+              />
+              <p
+                class="absolute bottom-2 left-2 z-10 text-lg font-semibold text-white"
+              >
+                Desert house
+              </p>
+            </div>
+            <div class="h-76 relative w-72 rounded-lg shadow-2xl">
+              <img
+                src="./src/assets/accomodations/house4.jpg"
+                alt=""
+                class="h-full w-full rounded-lg brightness-50"
+              />
+              <p
+                class="absolute bottom-2 left-2 z-10 text-lg font-semibold text-white"
+              >
+                House by the ocean
+              </p>
+            </div>
             <div class="h-76 relative w-72 rounded-lg shadow-2xl">
               <img
                 src="./src/assets/accomodations/house1.png"
