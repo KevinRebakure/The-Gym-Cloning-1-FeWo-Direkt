@@ -6,7 +6,11 @@ module.exports = {
     content: ["./index.html"], // Add the path to your index.html file here
   },
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'custom': '34rem'
+      }
+    },
   },
   plugins: [],
 };
