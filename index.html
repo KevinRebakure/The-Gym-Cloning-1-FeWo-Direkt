@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- adding styles -->
+    <link rel="stylesheet" href="src/hero.css" />
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="stylesheet" href="src/output.css" />
     <!-- google icons -->
@@ -17,7 +18,7 @@
   </head>
   <body>
     <div class="text-blue-950">
-      <nav class="flex items-center justify-around border border-black py-3">
+      <nav class="flex items-center justify-around py-3">
         <h1 class="text-4xl text-blue-500">FeWo-direkt</h1>
         <div class="flex items-center space-x-7">
           <button
@@ -46,12 +47,14 @@
         </div>
       </nav>
 
-      <div class="p-60 border border-blue-700 bg-slate-700">
-        <div class="border border-red-500 space-y-5 font-semibold">
+      <div class="hero bg-slate-700">
+        <div class="hero-div space-y-5 font-semibold">
           <h1 class="text-4xl text-white">Find your place for each other</h1>
-          <div class="border border-blue-500 flex justify-evenly bg-white">
+          <div
+            class="h-12 flex justify-evenly rounded-lg bg-white"
+          >
             <div
-              class="flex h-12 space-x-2 items-center rounded-lg border border-black p-3"
+              class="flex items-center space-x-2 rounded-lg border border-black p-3"
             >
               <span class="material-symbols-outlined"> location_on </span>
               <input
@@ -61,7 +64,7 @@
               />
             </div>
             <div
-              class="flex h-12 space-x-2 items-center rounded-lg border border-black p-3"
+              class="flex items-center space-x-2 rounded-lg border border-black p-3"
             >
               <span class="material-symbols-outlined"> event </span>
               <input
@@ -71,7 +74,7 @@
               />
             </div>
             <div
-              class="flex h-12 space-x-2 items-center rounded-lg border border-black p-3"
+              class="flex items-center space-x-2 rounded-lg border border-black p-3"
             >
               <span class="material-symbols-outlined"> person </span>
               <div>
@@ -83,7 +86,11 @@
                 />
               </div>
             </div>
-            <button class="rounded-2xl font-semibold border h-12 border-black bg-blue-950 text-white px-3 py-2">Seek</button>
+            <button
+              class="rounded-2xl border border-black bg-blue-950 px-3 py-2 font-semibold text-white"
+            >
+              Seek
+            </button>
           </div>
         </div>
       </div>
