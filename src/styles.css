@@ -5,3 +5,30 @@
     "GRAD" 0,
     "opsz" 24;
 }
+
+.hero {
+  position: relative;
+  background-image: url("./assets/fatherAndDaughter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.hero-div {
+  width: 65%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/* .hero-div h1, .hero-div > div{
+    border: 2px solid green;
+} */
+
+.hero-div > div {
+    height: 70px;
+    padding: 10px;
+}
