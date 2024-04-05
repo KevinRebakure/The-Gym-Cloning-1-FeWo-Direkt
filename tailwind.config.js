@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       height: {
         'custom': '34rem'
+      }, 
+      width: {
+        'inputWidth': '17.4rem'
       }
     },
   },
